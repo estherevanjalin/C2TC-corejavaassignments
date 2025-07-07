@@ -4,10 +4,10 @@ public class Employee {
 	private String name;
 	private int id;
 	private double Salary;
-	public  Employee(String name, int id,double salary) {
+	public  Employee(String name, int id,double Salary) {
 		this.name=name;
 		this.id=id;
-		this.Salary=salary;
+		this.Salary=Salary;
 	}
 	public String getName() {
 		return name;
